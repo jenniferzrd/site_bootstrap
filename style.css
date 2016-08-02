@@ -1,0 +1,81 @@
+body {
+  background: url(https://d2c87l0yth4zbw-2.global.ssl.fastly.net/i/home/bg-albums.png),linear-gradient(50deg,rgb(204,53,117) 0,purple 100%);
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 0;
+  padding: 20px;
+
+}
+
+.navbar .logo-spotify {
+  padding: 0;
+}
+
+.navbar .logo-spotify img {
+  width: 150px;
+  object-fit: contain;
+}
+
+.navbar .navbar-nav li .menu-basic{
+  color: white;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: rgba(68,204,167,0.5) !important;
+}
+
+.navbar .navbar-nav li .menu-disable:hover {
+  color: white !important;
+  cursor: default;
+}
+
+.carousel-inner {
+  height: 652px;
+}
+
+.item {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.texte_carousel{
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.04em;
+  line-height: 1.2;
+  padding: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  border-radius: 20px;
+  background-color: rgb(98,7,227);
+  border: 1px solid rgb(98,7,227);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn-primary2 {
+background-color:rgba(249, 245, 245, 0.1);;
+color: white;
+border: 1px solid white;
+border-radius: 20px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.btn-primary2:hover {
+  background-color: white;
+  color: black;
+}
